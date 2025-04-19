@@ -1,0 +1,444 @@
+/* Підключення шрифта (не видаляти) */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Readex+Pro:wght@400;700&display=swap');
+body{
+    margin: 0px; /* забираємо стандартні відступи в тега body */
+}
+
+/* Ваші стилі */
+
+header{
+    display: flex;
+    height: 80px;
+    padding: 0px 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 47px;
+    height: 46px;
+}
+
+.menu{
+    display: flex;
+    height: 80px;
+    padding: 30px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-grow: 1;
+}
+
+.menu-elements{
+    color: #000000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px; /* 120% */
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu-elements:hover{
+    transition: 0.1s;
+    color: #000000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px; /* 120% */
+    text-transform: uppercase;
+    text-decoration: overline;
+}
+
+
+main{
+    padding: 5%;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 550px;
+    align-items: center;
+    margin-bottom: 120px;
+    border-radius: 32px;
+    background: #DCE5E2 top center / 100% repeat url(/uploads/2023/11/phone_bg_0_1699843784.png);
+}
+
+.block{
+    display: flex;
+    padding: 90px 54px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 44px;
+    flex-grow: 1;
+    align-self: stretch;
+}
+
+.button{
+    width: 234px;
+    height: 50px;
+    padding: 14px 85px;
+    border-radius: 200px;
+    border: 1px solid #000;
+    background: #DCE5E2;
+   
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px; /* 120% */
+    text-transform: capitalize;
+}
+
+.button:hover{
+    transition: 0.1s;
+    width: 245px;
+    height: 56px;
+    padding: 14px 85px;
+    border-radius: 200px;
+    border: 1px solid #000;
+    background: #80aa9c;
+   
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px; /* 120% */
+    text-transform: capitalize;
+}
+
+.main-text{
+    margin: 0;
+    max-width: 500px;
+    color: #000;
+    font-family: Readex Pro;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 69.6px; /* 120% */
+}
+
+.text{
+    color: #000;
+    text-align: center;
+    font-family: Readex Pro;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52.5px; /* 125% */
+    margin-bottom: 57px;
+}
+
+
+
+.card:hover{
+    transition: 0.1s;
+    background-color: #f6d5d5;
+
+    padding: 10px;
+}
+
+.text-card{
+    color: #000;
+    font-family: Readex Pro;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px; /* 125% */
+}
+
+.price-card{
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px; /* 120% */
+}
+
+
+.card-img{
+    width: 244px;
+    height: 214px;
+}
+
+.container-cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 72px;
+}
+
+.last-block {
+    /* last-block */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 43px 0px;
+gap: 28px;
+
+width: 100%;
+
+background: #DCE5E2;
+border-radius: 16px;
+
+
+margin-top: 72px;
+}
+
+.img-last-block {
+    /* img-last-block */
+
+width: 241px;
+height: 149px;
+
+
+}
+
+.text-last-block {
+    /* text-last-block */
+
+max-width: 393px;
+height: 105px;
+
+font-family: 'Readex Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 42px;
+line-height: 52px;
+/* or 125% */
+
+color: #000000;
+
+text-align: center;
+
+margin: 0;
+
+}
+
+.type-phone {
+    /* type-phone */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px 23px;
+gap: 10px;
+
+width: 270px;
+
+background: #DCE5E2;
+border: 1px solid #000000;
+border-radius: 54px 0px 0px 54px;
+
+/* Your phone number */
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #000000;
+
+
+
+}
+
+.subm {
+    /* subm */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 33px;
+
+width: 130px;
+height: 50px;
+
+background: #000000;
+border-radius: 0px 200px 200px 0px;
+
+/* Call me */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height, or 120% */
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.subm:hover{
+    /* subm */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 33px;
+
+width: 130px;
+height: 50px;
+
+background: #3a3939;
+border-radius: 0px 200px 200px 0px;
+
+/* Call me */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height, or 120% */
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.content-input {
+    /* content-input */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 400px;
+height: 50px;
+
+
+}
+
+.logo-footer{
+/* logo-footer */
+
+width: 62px;
+height: 60px;
+
+
+}
+
+li {
+    list-style: none;
+}
+
+footer{
+    /* footer */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: flex-start;
+align-content: space-between;
+padding: 40px 60px;
+
+background: #F8F9FA;
+
+column-gap: 40px;
+
+min-height: 30px;
+
+}
+
+.footer-menu {
+    /* footer-menu */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: flex-start;
+align-content: flex-start;
+padding: 10px 0px;
+gap: 20px;
+
+flex: 1 0 0;
+
+}
+
+.vert-menu {
+    /* vert-menu */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 38px;
+gap: 15px;
+
+
+}
+
+.footer-elements-first {
+    /* footer-elements-first */
+
+
+font-family: 'Readex Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 28px;
+/* identical to box height, or 125% */
+
+color: #000000;
+
+text-decoration: none;
+
+}
+
+.footer-elements {
+    /* footer-elements */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 22px;
+/* identical to box height, or 127% */
+
+color: #000000;
+
+text-decoration: none;
+
+}
+
+.footer-elements:hover {
+    /* footer-elements */
+
+transition: 0.1s;
+background-color: beige;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 22px;
+/* identical to box height, or 127% */
+
+color: #000000;
+
+}
